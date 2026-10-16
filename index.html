@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto acadêmico de uma biblioteca digital: conhecimento, leitura e apoio à aprendizagem.">
+    <title>Biblioteca Digital UniFECAF | Projeto acadêmico</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+    <!-- Cabeçalho e navegação preservam a organização do protótipo. -->
+    <header class="cabecalho">
+        <div class="container topo">
+            <a class="marca" href="#inicio" aria-label="Biblioteca UniFECAF, início"><span class="simbolo" aria-hidden="true">▤</span><span>Uni<span class="marca-forte">FECAF</span><small>BIBLIOTECA DIGITAL</small></span></a>
+            <nav aria-label="Navegação principal">
+                <a href="#biblioteca">Biblioteca</a><a href="#livros">Livros</a><a href="#unidades">Unidades</a><a href="#contatos">Contatos</a>
+            </nav>
+        </div>
+    </header>
+    <main id="conteudo">
+        <section class="hero" id="inicio" aria-labelledby="titulo">
+            <div class="container hero-grid">
+                <div>
+                    <p class="eyebrow">SEU PRÓXIMO CAPÍTULO COMEÇA AQUI</p>
+                    <h1 id="titulo">Conhecimento que<br>abre <em>caminhos.</em></h1>
+                    <p class="introducao">Um espaço para descobrir ideias, ampliar horizontes e acompanhar cada etapa da sua jornada acadêmica.</p>
+                    <a class="botao" href="#livros">Explore nossos livros <span aria-hidden="true">↗</span></a>
+                    <p class="nota">Projeto acadêmico de Design Web · HTML e CSS</p>
+                </div>
+                <figure class="hero-imagem"><img src="assets/imagens/biblioteca.svg" alt="Ilustração de estantes com livros e uma mesa de estudo com computador" width="900" height="660"><figcaption>Descobrir. Aprender. Transformar.</figcaption></figure>
+            </div>
+        </section>
+        <section class="secao" id="biblioteca" aria-labelledby="titulo-biblioteca">
+            <div class="container">
+                <p class="eyebrow">SOBRE A NOSSA BIBLIOTECA</p>
+                <h2 id="titulo-biblioteca">Mais que livros.<br>Um encontro com novas ideias.</h2>
+                <div class="sobre-grid">
+                    <p>A biblioteca faz parte da vida universitária: aproxima estudantes do conhecimento e oferece caminhos para estudar, pesquisar e explorar diferentes áreas.</p>
+                    <div class="sobre-icone" aria-hidden="true">“<span>Ler é abrir<br>possibilidades.</span></div>
+                    <p>Esta proposta organiza a apresentação do acervo e dos serviços em uma interface simples. Para consultar materiais e orientações institucionais, visite a <a href="https://www.unifecaf.com.br/biblioteca">biblioteca oficial da UniFECAF</a>.</p>
+                </div>
+                <div class="beneficios">
+                    <article><span aria-hidden="true">01</span><h3>Leitura digital</h3><p>Descubra os canais de acesso às bibliotecas virtuais.</p></article>
+                    <article><span aria-hidden="true">02</span><h3>Pesquisa acadêmica</h3><p>Conheça o repositório de trabalhos da instituição.</p></article>
+                    <article><span aria-hidden="true">03</span><h3>Apoio ao estudo</h3><p>Encontre referências para sua jornada de aprendizagem.</p></article>
+                    <article><span aria-hidden="true">04</span><h3>Acervo físico</h3><p>Consulte as orientações para pesquisa e renovação de livros.</p></article>
+                </div>
+            </div>
+        </section>
+        <!-- Faixa de destaque ocupa a segunda área de imagem do wireframe. -->
+        <section class="destaque" aria-labelledby="titulo-destaque">
+            <div class="container destaque-grid"><div><p class="eyebrow">UMA IDEIA PUXA A OUTRA</p><h2 id="titulo-destaque">A próxima descoberta<br>pode estar em uma página.</h2></div><a class="botao botao-claro" href="#livros">Encontre sua próxima leitura →</a></div>
+        </section>
+        <section class="secao acervo" id="livros" aria-labelledby="titulo-livros">
+            <div class="container">
+                <div class="titulo-linha"><div><p class="eyebrow">EXPLORE O CONHECIMENTO</p><h2 id="titulo-livros">Nossos livros</h2></div><p>Seis ideias para começar.<br>Um universo para explorar.</p></div>
+                <p class="aviso-acervo">Catálogo demonstrativo: títulos e capas autorais ilustrativos, sem vínculo com o acervo real.</p>
+                <div class="livros-grid">
+                <article class="livro">
+                    <img src="assets/imagens/livro-01.svg" alt="Capa ilustrativa de Pensamento computacional" width="480" height="600" loading="lazy">
+                    <div class="livro-conteudo">
+                        <span class="categoria">Tecnologia</span>
+                        <h3>Pensamento computacional</h3>
+                        <p>Uma introdução à lógica, à decomposição de problemas e à construção de algoritmos.</p>
+                        <details><summary>Saiba mais<span class="sr-only"> sobre Pensamento computacional</span></summary>
+                            <p>Título fictício usado para demonstrar a interface. O acesso ao acervo real ocorre pelos canais oficiais da biblioteca.</p>
+                            <a href="https://www.unifecaf.com.br/biblioteca">Consultar a biblioteca oficial →</a>
+                        </details>
+                    </div>
+                </article>
+                <article class="livro">
+                    <img src="assets/imagens/livro-02.svg" alt="Capa ilustrativa de Design para pessoas" width="480" height="600" loading="lazy">
+                    <div class="livro-conteudo">
+                        <span class="categoria">Design</span>
+                        <h3>Design para pessoas</h3>
+                        <p>Explore hierarquia visual, composição e interfaces que colocam as pessoas no centro.</p>
+                        <details><summary>Saiba mais<span class="sr-only"> sobre Design para pessoas</span></summary>
+                            <p>Título fictício usado para demonstrar a interface. O acesso ao acervo real ocorre pelos canais oficiais da biblioteca.</p>
+                            <a href="https://www.unifecaf.com.br/biblioteca">Consultar a biblioteca oficial →</a>
+                        </details>
+                    </div>
+                </article>
+                <article class="livro">
+                    <img src="assets/imagens/livro-03.svg" alt="Capa ilustrativa de Gestão e inovação" width="480" height="600" loading="lazy">
+                    <div class="livro-conteudo">
+                        <span class="categoria">Gestão</span>
+                        <h3>Gestão e inovação</h3>
+                        <p>Conheça conceitos de planejamento, colaboração e inovação nas organizações.</p>
+                        <details><summary>Saiba mais<span class="sr-only"> sobre Gestão e inovação</span></summary>
+                            <p>Título fictício usado para demonstrar a interface. O acesso ao acervo real ocorre pelos canais oficiais da biblioteca.</p>
+                            <a href="https://www.unifecaf.com.br/biblioteca">Consultar a biblioteca oficial →</a>
+                        </details>
+                    </div>
+                </article>
+                <article class="livro">
+                    <img src="assets/imagens/livro-04.svg" alt="Capa ilustrativa de Aprender a aprender" width="480" height="600" loading="lazy">
+                    <div class="livro-conteudo">
+                        <span class="categoria">Educação</span>
+                        <h3>Aprender a aprender</h3>
+                        <p>Reflita sobre estratégias de estudo, autonomia e aprendizagem ao longo da vida.</p>
+                        <details><summary>Saiba mais<span class="sr-only"> sobre Aprender a aprender</span></summary>
+                            <p>Título fictício usado para demonstrar a interface. O acesso ao acervo real ocorre pelos canais oficiais da biblioteca.</p>
+                            <a href="https://www.unifecaf.com.br/biblioteca">Consultar a biblioteca oficial →</a>
+                        </details>
+                    </div>
+                </article>
+                <article class="livro">
+                    <img src="assets/imagens/livro-05.svg" alt="Capa ilustrativa de O universo dos dados" width="480" height="600" loading="lazy">
+                    <div class="livro-conteudo">
+                        <span class="categoria">Tecnologia</span>
+                        <h3>O universo dos dados</h3>
+                        <p>Descubra como organizar, interpretar e comunicar dados de maneira responsável.</p>
+                        <details><summary>Saiba mais<span class="sr-only"> sobre O universo dos dados</span></summary>
+                            <p>Título fictício usado para demonstrar a interface. O acesso ao acervo real ocorre pelos canais oficiais da biblioteca.</p>
+                            <a href="https://www.unifecaf.com.br/biblioteca">Consultar a biblioteca oficial →</a>
+                        </details>
+                    </div>
+                </article>
+                <article class="livro">
+                    <img src="assets/imagens/livro-06.svg" alt="Capa ilustrativa de Pesquisa acadêmica" width="480" height="600" loading="lazy">
+                    <div class="livro-conteudo">
+                        <span class="categoria">Pesquisa</span>
+                        <h3>Pesquisa acadêmica</h3>
+                        <p>Entenda as etapas de uma investigação e a importância das referências acadêmicas.</p>
+                        <details><summary>Saiba mais<span class="sr-only"> sobre Pesquisa acadêmica</span></summary>
+                            <p>Título fictício usado para demonstrar a interface. O acesso ao acervo real ocorre pelos canais oficiais da biblioteca.</p>
+                            <a href="https://www.unifecaf.com.br/biblioteca">Consultar a biblioteca oficial →</a>
+                        </details>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </section>
+        <section class="secao unidades" id="unidades" aria-labelledby="titulo-unidades">
+            <div class="container">
+                <p class="eyebrow">CONHECIMENTO QUE SE CONECTA</p><h2 id="titulo-unidades">As unidades</h2>
+                <p class="unidades-intro">Conheça o campus, encontre seu polo e descubra os canais digitais da instituição.</p>
+                <article class="unidade"><div class="unidade-arte campus" aria-hidden="true"><span>01</span>Campus</div><div><h3>Campus em Taboão da Serra</h3><p>O campus-sede conecta a experiência presencial aos espaços de aprendizagem. Consulte a instituição para informações atualizadas sobre estrutura e atendimento.</p><a href="https://www.unifecaf.com.br/graduacao-presencial">Conheça a graduação presencial →</a></div></article>
+                <article class="unidade"><div class="unidade-arte polos" aria-hidden="true"><span>02</span>Polos</div><div><h3>Polos de apoio</h3><p>Encontre os polos de apoio da UniFECAF e consulte as informações da unidade mais próxima de você.</p><a href="https://www.unifecaf.com.br/polos">Encontre seu polo →</a></div></article>
+                <article class="unidade"><div class="unidade-arte digital" aria-hidden="true"><span>03</span>Digital</div><div><h3>Ambiente digital de aprendizagem</h3><p>As orientações para acessar as bibliotecas virtuais estão disponíveis na página oficial da biblioteca. Este bloco representa um canal de acesso, e não uma unidade física.</p><a href="https://www.unifecaf.com.br/biblioteca">Veja como acessar →</a></div></article>
+            </div>
+        </section>
+        <section class="secao contatos" id="contatos" aria-labelledby="titulo-contatos">
+            <div class="container contato-grid"><div><p class="eyebrow">VAMOS CONVERSAR</p><h2 id="titulo-contatos">Precisa de orientação?</h2><p>Consulte os canais oficiais para tirar dúvidas sobre o acervo, o acesso digital e os serviços da biblioteca.</p><a class="botao" href="https://www.unifecaf.com.br/biblioteca">Acesse a biblioteca oficial ↗</a></div><div class="contato-painel"><span aria-hidden="true">▤</span><h3>Seu estudo continua aqui.</h3><p>Informação confiável começa na fonte.<br>Conheça as orientações da UniFECAF.</p><a href="#inicio">Voltar ao início ↑</a></div></div>
+        </section>
+    </main>
+    <footer><div class="container rodape"><p><strong>UniFECAF</strong> · Biblioteca Digital</p><p>Projeto acadêmico de Guilherme Santos Maciel.<br>Interface demonstrativa, sem vínculo oficial.</p></div></footer>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="600" viewBox="0 0 480 600">
+    <rect width="480" height="600" fill="#144b72"/><path d="M28 0v600" stroke="#ffffff" stroke-opacity=".18" stroke-width="2"/>
+    <circle cx="415" cy="440" r="180" fill="none" stroke="#ffffff" stroke-opacity=".16" stroke-width="40"/>
+    <path d="M80 390h280M80 420h180" stroke="#ffffff" stroke-opacity=".4" stroke-width="3"/>
+    <text x="65" y="80" fill="#ffffff" font-family="Arial" font-size="18" letter-spacing="4">CADERNOS DO SABER</text>
+    <text x="65" y="195" fill="#ffffff" font-family="Arial" font-size="34" font-weight="bold">Pensamento computacional</text>
+    <text x="65" y="238" fill="#ffffff" font-family="Arial" font-size="34" font-weight="bold"></text>
+    <text x="65" y="295" fill="#ffffff" font-family="Arial" font-size="17">Do problema ao algoritmo</text>
+    <text x="65" y="540" fill="#ffffff" font-family="Arial" font-size="17">EDIÇÃO ILUSTRATIVA · 01</text></svg>
