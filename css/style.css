@@ -1,5 +1,4 @@
-/* 1. Identidade visual: azul inspirado no material institucional.
-   A paleta é uma proposta acadêmica, não um manual oficial de marca. */
+
 :root {
     --azul: #0067a4;
     --azul-escuro: #123247;
@@ -9,7 +8,7 @@
     --linha: #d5e0e5;
     --branco: #ffffff;
 }
-/* 2. Base mobile-first: a menor tela recebe o layout de uma coluna. */
+
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--branco); color: var(--texto); font-family: Arial, Helvetica, sans-serif; line-height: 1.65; }
@@ -31,7 +30,6 @@ p { overflow-wrap: break-word; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .pular { position: absolute; top: -100px; left: 16px; padding: 12px; background: white; z-index: 5; }
 .pular:focus { top: 12px; }
-/* 3. Navegação fica visível e quebra de linha sem depender de JavaScript. */
 .cabecalho { border-bottom: 1px solid var(--linha); background: white; }
 .topo { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; padding-block: 22px; }
 .marca { display: flex; align-items: center; gap: 10px; color: var(--azul); text-decoration: none; font-size: 1.65rem; line-height: 1; }
@@ -41,7 +39,6 @@ p { overflow-wrap: break-word; }
 nav { display: flex; flex-wrap: wrap; gap: 4px 18px; }
 nav a { color: var(--texto); font-size: .9rem; text-decoration: none; padding-block: 9px; }
 nav a:hover { color: var(--azul); text-decoration: underline; }
-/* 4. Apresentação e área sobre a biblioteca. */
 .hero { padding-block: 58px; background: var(--fundo); }
 .hero-grid { display: grid; gap: 38px; align-items: center; }
 h1 em { font-family: Georgia, serif; font-weight: 400; color: var(--azul); }
@@ -64,7 +61,6 @@ figcaption { margin-top: 12px; color: var(--secundario); font-size: .78rem; text
 .destaque .eyebrow { color: #b9dced; }
 .botao-claro { background: white; color: var(--azul-escuro); }
 .botao-claro:hover { background: #dceaf0; }
-/* 5. Acervo: seis cartões, com detalhes nativos expansíveis. */
 .acervo { background: var(--fundo); }
 .titulo-linha { display: flex; flex-wrap: wrap; gap: 22px; align-items: end; justify-content: space-between; }
 .titulo-linha > p { color: var(--secundario); font-size: .9rem; }
@@ -80,7 +76,6 @@ details { margin-top: 18px; }
 summary { cursor: pointer; color: var(--azul); font-weight: bold; padding-block: 8px; min-height: 44px; }
 details[open] p { margin-block: 12px; }
 details a { font-size: .84rem; }
-/* 6. Unidades e contato. */
 .unidades { background: var(--azul-escuro); color: white; }
 .unidades h2 { color: white; }
 .unidades .eyebrow { color: #b9dced; }
@@ -100,7 +95,6 @@ details a { font-size: .84rem; }
 .contato-painel h3 { font-family: Georgia, serif; font-size: 1.65rem; }
 footer { border-top: 1px solid var(--linha); padding-block: 26px; }
 .rodape { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 18px; font-size: .8rem; color: var(--secundario); }
-/* 7. Breakpoints determinados pelo espaço necessário ao conteúdo. */
 @media (min-width: 600px) {
     .beneficios { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .livros-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -116,7 +110,6 @@ footer { border-top: 1px solid var(--linha); padding-block: 26px; }
     .livros-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
     .contato-grid { grid-template-columns: 1.3fr 1fr; gap: 70px; }
 }
-/* Respeita a preferência por menos movimento. */
 @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
 }
